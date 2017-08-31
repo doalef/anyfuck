@@ -1,0 +1,59 @@
+div {
+    width: 80%;
+    margin: 10% auto 0;
+  }
+  h1 {
+    width: 100%;
+    max-width: initial;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    font-size: 30px;
+    font-family: Helvetica;
+    color: $blue;
+    font-family: Sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+  }
+  h1 ul {
+    margin: 0 0 0 40px;
+    position: absolute;
+    animation: scroll 6s infinite linear;
+  }
+  h1 ul li {
+    display: block;
+    margin-bottom: 30px;
+  }
+  @-moz-keyframes scroll {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-100%);
+    }
+  }
+  @-webkit-keyframes scroll {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-100%);
+    }
+  }
+  @-o-keyframes scroll {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-100%);
+    }
+  }
+  @keyframes scroll {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-100%);
+    }
+  }
+  
