@@ -18,7 +18,7 @@ div {
   h1 ul {
     margin: 0 0 0 40px;
     position: absolute;
-    animation: scroll 6s infinite linear;
+    animation: scroll 13s infinite linear;
   }
   h1 ul li {
     display: block;
