@@ -11,7 +11,7 @@ bot.command('start',function(msg,reply,next){
         var thisFuck=fucks[index];
         reply.text('Fuck '+thisFuck);
     }
-    setInterval(sendFuck, 3000);
+    // setInterval(sendFuck, 3000);
     
-    // setInterval(sendFuck, Math.floor((Math.random() * 18000000) + 5000));
+    setInterval(sendFuck, Math.floor((Math.random() * 18000000) + 5000));
 })
